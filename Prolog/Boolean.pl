@@ -26,3 +26,6 @@ xor(0,1,1).
 xor(0,0,0).
 xor(1,1,0).
 
+/*circuit*/
+
+circuitone(A, B, C, F):- inv(C, CInv), and(B, CInv, BC), or(A, BC, F).
