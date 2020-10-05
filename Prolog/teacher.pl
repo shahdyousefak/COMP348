@@ -19,7 +19,5 @@
 	year(jill, 2).
 	year(henry, 4).
          
-	
-
-
+more_advanced(S1, S2):- year(S1, Year1), year(S2, Year2), Year1>Year2.
 
